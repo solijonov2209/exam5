@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+.list{
+  margin-bottom: 50px;
+}
+.wrapper{
+  height: 80vh;
+}
+.link{
+  text-decoration: none;
+  color: black;
+  
+}
+.main-menu{
+  padding: 20px;
+ 
+}
+.all-incomes,.all-expenses{
+  height: 380px;
+}
+.delete-incomes, .delete-expenses{
+  background-image: url("../delete.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  width: 25px;
+  height: 25px;
+}
+.all-transactions{
+  height: 480px;
+  overflow-y: scroll;
+}
+.btn-wrapperr{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
